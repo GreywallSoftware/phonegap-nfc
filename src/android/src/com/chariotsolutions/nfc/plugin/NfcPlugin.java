@@ -723,7 +723,7 @@ public class NfcPlugin extends CordovaPlugin implements NfcAdapter.OnNdefPushCom
                 fireTagEvent(tag);
             }
 
-            setIntent(new Intent());
+            // setIntent(new Intent());
         });
     }
 
