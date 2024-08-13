@@ -593,7 +593,7 @@ public class NfcPlugin extends CordovaPlugin {
                 fireTagEvent(tag);
             }
 
-            setIntent(new Intent());
+            // setIntent(new Intent());
         });
     }
 
